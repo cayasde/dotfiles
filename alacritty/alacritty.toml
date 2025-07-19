@@ -28,6 +28,4 @@ style.shape = "Underline"
 hide_when_typing = true
 
 [terminal]
-# shell.program = "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-# shell.args = ["-NoLogo"]
 shell = "wsl -d archlinux"
