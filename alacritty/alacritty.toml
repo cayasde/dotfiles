@@ -1,0 +1,33 @@
+[general]
+working_directory = '\\wsl.localhost\archlinux\home'
+
+[window]
+dynamic_title = false
+
+[scrolling]
+history = 300
+
+[font]
+normal = { family = "JetBrainsMono NFM", style = "Regular" }
+size = 9.5
+offset.y = 7
+
+[selection]
+save_to_clipboard = true
+
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control", action = "Paste" },
+  { key = "C", mods = "Control", action = "Copy" },
+]
+
+[cursor]
+style.shape = "Underline"
+
+[mouse]
+hide_when_typing = true
+
+[terminal]
+# shell.program = "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+# shell.args = ["-NoLogo"]
+shell = "wsl -d archlinux"
